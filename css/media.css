@@ -1,0 +1,317 @@
+@media (max-width:1224px) {
+	.choose__car {
+		grid-template-columns: repeat(3, 1fr)
+	}
+
+	.news__content {
+		display: grid;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center
+	}
+}
+
+@media (max-width:1124px) {
+	.advantages__content {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+		gap: 30px
+	}
+
+	.choose__list {
+		gap: 60px
+	}
+
+	.card__price,
+	.card__title {
+		font-size: 20px
+	}
+
+	.things {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 40px 20px
+	}
+
+	.things__block {
+		max-width: 270px;
+		justify-self: center
+	}
+}
+
+@media (max-width:860px) {
+	.main {
+		gap: 100px;
+		padding-bottom: 100px
+	}
+
+	.footer__row {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		text-align: center;
+		gap: 40px 20px
+	}
+
+	.block__title {
+		margin-bottom: 20px
+	}
+
+	.block__list,
+	.block__title {
+		padding: 0 20px
+	}
+
+	.footer__sub {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		gap: 10px
+	}
+
+	.nav__list {
+		display: none
+	}
+
+	.mobile-nav-btn {
+		display: block
+	}
+
+	.advantages__title {
+		font-size: 38px
+	}
+
+	.advantages__content {
+		gap: 50px 20px
+	}
+
+	.advantages__block__title {
+		font-size: 20px;
+		padding: 20px 0
+	}
+
+	.choose__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px
+	}
+
+	.choose__btn {
+		font-size: 20px
+	}
+
+	.choose__car {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 40px 30px;
+		padding: 50px 0
+	}
+
+	.card__price,
+	.card__title {
+		font-size: 18px
+	}
+
+	.form {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding-top: 30px;
+		gap: 30px
+	}
+
+	.input__form,
+	.text__form {
+		margin-bottom: 0
+	}
+
+	.important__title {
+		font-size: 38px
+	}
+
+	.news__title {
+		font-size: 18px
+	}
+
+	.top__title {
+		font-size: 62px
+	}
+
+	.top__btn {
+		max-width: 260px;
+		padding: 10px
+	}
+
+	.top__link {
+		font-size: 26px
+	}
+
+	.video__title {
+		font-size: 38px
+	}
+
+	iframe {
+		max-width: 100%;
+		width: 800px;
+		height: 400px
+	}
+
+	.work__content__block {
+		padding: 0;
+		-ms-flex-item-align: center;
+		align-self: center;
+		gap: 20px
+	}
+
+	.work__sub__text {
+		padding-top: 50px
+	}
+}
+
+@media (max-width:490px) {
+	.main {
+		gap: 50px;
+		padding-bottom: 50px
+	}
+
+	.footer {
+		padding: 20px 0
+	}
+
+	.block__title {
+		font-size: 20px;
+		padding: 0 10px;
+		margin-bottom: 10px
+	}
+
+	.block__list {
+		padding: 0 10px;
+		gap: 10px
+	}
+
+	.store {
+		display: grid;
+		gap: 20px
+	}
+
+	.advantages__content {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding-top: 30px
+	}
+
+	.choose__title {
+		padding-top: 50px;
+		font-size: 28px
+	}
+
+	.choose__list {
+		grid-template-columns: 1fr;
+		text-align: center;
+		gap: 10px
+	}
+
+	.choose__car {
+		grid-template-columns: 1fr;
+		gap: 30px;
+		padding: 30px 0
+	}
+
+	.card__price,
+	.card__title {
+		padding: 10px 5px
+	}
+
+	.contact__title {
+		padding-top: 50px;
+		font-size: 38px
+	}
+
+	.contact__text {
+		font-size: 20px
+	}
+
+	.important__title {
+		font-size: 28px
+	}
+
+	.things {
+		grid-template-columns: 1fr;
+		padding-top: 30px
+	}
+
+	.things__block {
+		gap: 10px
+	}
+
+	.news__flex {
+		display: grid;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		gap: 10px
+	}
+
+	.news__btn {
+		justify-self: center
+	}
+
+	.swiper-pagination-bullet {
+		width: 25px !important;
+		height: 25px !important
+	}
+
+	.swiper-pagination-bullet-active {
+		width: 30px !important;
+		height: 30px !important
+	}
+
+	.video__title {
+		font-size: 28px
+	}
+
+	.video__text {
+		padding: 20px 0
+	}
+
+	iframe {
+		max-width: 100%;
+		width: 440px;
+		height: 220px;
+		margin: 0 auto
+	}
+
+	.work__title {
+		font-size: 28px
+	}
+
+	.work__text {
+		padding-top: 30px
+	}
+
+	.rules__text {
+		padding: 30px 0
+	}
+
+	.work__content__block span {
+		height: 70px;
+		font-size: 24px
+	}
+
+	.work__blok__text {
+		width: 100%
+	}
+
+	.work__sub__text {
+		padding: 30px 0
+	}
+}
