@@ -434,7 +434,8 @@ pre.code {
 
 .footer__text a,
 .mobile-nav a {
-	color: var(--white)
+	color: var(--white);
+	transition: all 190ms ease-in;
 }
 
 .mobile-nav a:hover {
